@@ -21,6 +21,7 @@ class LSTMModule(BaseModule):
         optimizer='adam',
         mode='default',
         loss='rmse',
+        use_checkpoint=False, # my code
         **kwargs
     ): 
         super().__init__(lr=lr,
@@ -40,4 +41,6 @@ class LSTMModule(BaseModule):
             hidden_size=hidden_size,
             num_layers=num_layers,
             bidirectional=bidirectional,
+            use_checkpoint=use_checkpoint, # my code
+            **kwargs  # my code
         )
