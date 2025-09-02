@@ -1,6 +1,6 @@
-torch
-torchvision
-torchaudio
+torch==2.4.1
+torchvision==0.19.1
+torchaudio==2.4.1
 setuptools
 pyaml
 pytorch-lightning
@@ -9,4 +9,4 @@ seaborn
 pandas
 einops
 tensorboard
-mamba-ssm[causal-conv1d]
+mamba-ssm[causal-conv1d]==2.2.2
