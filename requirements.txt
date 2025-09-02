@@ -9,4 +9,5 @@ seaborn
 pandas
 einops
 tensorboard
-mamba-ssm[causal-conv1d]==2.2.2
+mamba-ssm==2.2.2
+causal-conv1d==1.4.0
